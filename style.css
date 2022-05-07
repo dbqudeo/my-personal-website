@@ -1,3 +1,89 @@
 body {
-    background: blue;
+  margin: 0;
+  font-family: 'Source Sans Pro'
+}
+
+a {
+  text-decoration: none;
+  color: #f0f4f5;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #263343;
+  padding: 8px 12px;
+}
+
+.fa-brands {
+  color: red;
+}
+
+.navbar_logo {
+  font-size: 24px;
+  color: white;
+}
+
+.navbar_menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.navbar_menu li {
+  padding: 8px 12px;
+}
+
+.navbar_menu li:hover {
+  background-color: #d49466;
+  border-radius: 4px;
+}
+
+.navbar_icons {
+  list-style: none;
+  color: rgb(0, 255, 213);
+}
+
+.navbar_icons i {
+  padding: 4px 12px;
+}
+
+.navbar_toggleBtn {
+  position: absolue;
+  color: #d49466;
+}
+
+ /* @media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
   }
+}
+
+.navbar_menu {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar_menu li {
+  width: 100%;
+  text-align: center;
+}
+
+.navbar_toggleBtn {
+  display: block;
+}
+*/
+
+.aboutme {
+  background-color: #263343;
+  color: white;
+  margin: 0;
+}
+
+.div {
+  color: white;
+}
